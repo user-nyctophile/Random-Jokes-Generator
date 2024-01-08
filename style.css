@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/bg.png)
+    center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.main_container{
+    background-color: #f6f1f4c0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1),
+    0 6px 6px rgba(0, 0, 0, 1);
+    padding: 50px 20px;
+    min-width: 50%;
+    width: 800px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+.joke {
+    font-size: 30px;
+    color: #16110d;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.btn {
+    background-color: #9f68e0;
+    border: 0;
+    border-radius: 10px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 1),
+     0 6px 6px rgba(0, 0, 0, 1);
+     color: #000;
+     cursor: pointer;
+     font-size: 16px;
+     padding: 14px 40px;
+}
+
+.btn:active{
+    transform: scale(.98);
+}
+
+.fas {
+    margin-left: 4px;
+
+}
